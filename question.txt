@@ -1,0 +1,138 @@
+PPS ASSIGNMENT-3
+1. Explain the concept of Python tuples and illustrate how to access values in tuples, update
+tuple elements, and delete elements from tuples using a program. Clarify the concept of
+anonymous (lambda) functions in Python, outlining their definition and primary use
+cases. Furthermore, present a brief Python code snippet exemplifying the creation and
+application of a lambda function.
+
+
+2. Create a Python function named count substring that takes user input for a string and a
+substring. The function should print the count of occurrences of the given substring in the
+provided string, with traversal occurring from left to right. Note that the comparison is
+case-sensitive.
+Input Format: The first line of input should contain the original string, and the subsequent
+line should contain the substring.
+Sample Input:
+LMPDPDP
+PDP
+Output: 2
+
+
+3. You have two sets, set_A and set_B, each containing positive integers. Your goal is to
+develop a Python program to perform the following operations:
+
+i. Form a new set, union_set, containing all unique elements found in either set_A or
+set_B.
+
+ii. Form a new set, intersection_set, holding elements common to both set_A and set_B.
+
+iii. Determine whether Set_A is a subset of Set_B. Output "True" if it is, otherwise,
+output "False".
+
+iv. Ascertain if Set_B is a proper superset of Set_A. Output "True" if it is, otherwise,
+output "False".
+
+Utilize appropriate Python functions and methods to execute
+Set_A = {5,6, 7,8, 9}
+Set_B = {7,8, 9, 10, 11}
+
+4. Given a list of tuples representing student information, where each tuple includes the
+student's name (as a string), age (as an integer), and grade (as a string):
+Student_info = [
+("RAM", 17, "A"),
+("SHYAM", 20, "B"),
+("MOHAN", 21, "C"),
+("NITIN", 24, "A"),
+("SOHAN", 18, "B")
+]
+Your objective is to create a Python program that performs the following tasks:
+
+i. Form a new list containing the names of all students aged 20 or older.
+
+ii. Calculate the average age of all students in the list.
+
+iii. Identify the highest grade in the list.
+
+iv. Your program should print the results for each of these tasks.
+
+Make use of tuple unpacking and suitable Python built-in functions to achieve these
+objectives.
+
+5. Given a dictionary containing information about students and their exam scores with the
+following structure:
+student_scores = {
+"RAVI": 86,
+"VIPIN": 93,
+"CHANDAR": 79,
+"KULDEEP": 89,
+"NAMAN": 96
+}
+Compose a Python program to carry out the following tasks:
+
+i. Discover and print the name of the student with the highest exam score.
+
+ii. Compute and print the average exam score for all students.
+
+iii. Develop a new dictionary, passing_students, that includes the names of students who
+scored 75 or higher, along with their respective scores.
+
+Utilize suitable Python functions and techniques to accomplish these tasks.
+
+6. Write brief notes and provide a detailed explanation on the following.
+
+i. Provide a comprehensive explanation of creating a dictionary.
+
+ii. Elaborate on the techniques for accessing values in a dictionary.
+
+iii. Detail the process of updating a dictionary.
+
+iv. Explore the methods involved in deleting elements from a dictionary.
+
+7. Develop a Python program that prompts the user to input a number and subsequently
+verifies its primality. Utilize suitable flow control statements to implement the logic for
+checking whether the number is prime or not. Ensure the program effectively manages
+user input and provides clear feedback to the user.
+
+8. Given a list of numbers, your objective is to create a Python program that accomplishes
+the following tasks:
+
+i. Generate a new list containing all unique numbers from the provided list, arranged in
+ascending order.
+
+ii. Compute the sum of all numbers in the list.
+
+iii. Identify the second smallest number in the list.
+
+Utilize appropriate Python functions and techniques to fulfill these tasks.
+numbers = [5, 3, 4, 6, 8, 5, 7, 2, 7, 8, 1, 2]
+
+9. You've received a string that comprises a sentence with several words. Your objective is
+to develop a Python program that accomplishes the following tasks:
+
+i. Determine and display the overall count of words in the given sentence.
+
+ii. Generate a new string by reversing all the words in the original sentence and
+interspersing them with spaces.
+
+iii. Identify and print the longest word present in the sentence.
+Leverage relevant Python string functions and techniques to execute these operations on
+the provided sentence:
+Sentence = "Python is a powerful and versatile programming language."
+
+10. You have a string representing a sentence, and your objective is to create a Python
+program that accomplishes the following tasks using string slicing:
+
+i. Retrieve and display the first 3 characters of the sentence.
+
+ii. Retrieve and display the last 3 characters of the sentence.
+
+iii. Retrieve and display every third character, beginning from the second character up to
+the 12th character.
+
+Utilize these slicing operations to extract the specified character sets and print the results
+accordingly. Sentence1 = "Python programming is pleasurable and multipurpose."
+
+11. Select a problem statement that captures your interest. Outline the logic and flow control
+statements necessary to tackle this task. Elaborate on your approach, detailing the
+selection of loops, conditions, and other pertinent flow control structures. Furthermore,
+present a Python code snippet to illustrate the implementation of your chosen approach.
